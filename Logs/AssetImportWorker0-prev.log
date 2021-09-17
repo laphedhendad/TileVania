@@ -1,0 +1,699 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'ru' Physical Memory: 8118 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UnityLearn/TileVania
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54137
+Successfully changed project path to: C:/UnityLearn/TileVania
+C:/UnityLearn/TileVania
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityLearn/TileVania/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002638 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1801ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (414ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1069ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 2.362500 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.914900 ms  DeleteObjects: 0.138600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites & Tiles/Tiles/Main Palette.prefab
+  artifactKey: Guid(321e2b07c71fbc54691de3d88c799ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites & Tiles/Tiles/Main Palette.prefab using Guid(321e2b07c71fbc54691de3d88c799ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd91090e8891ef4a7042073691c694d') in 0.092792 seconds 
+  Import took 0.099992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004536 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs
+  artifactKey: Guid(13b75c95f34a00d4e8c04f76b73312e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs using Guid(13b75c95f34a00d4e8c04f76b73312e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7507087c8fa08d2209110db174691') in 0.014945 seconds 
+  Import took 0.019789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002907 seconds.
+  path: Assets/Sprites & Tiles/Platforms.asset
+  artifactKey: Guid(f2d3ddb2dfc80824b9451141b25f205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites & Tiles/Platforms.asset using Guid(f2d3ddb2dfc80824b9451141b25f205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346a1e33b1471e7dcacd607e36cf0102') in 0.022961 seconds 
+  Import took 0.027756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002980 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor
+  artifactKey: Guid(762d145b6139de6478fcc2998702d839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor using Guid(762d145b6139de6478fcc2998702d839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd025af81b4c99acaa49c511847348b') in 0.004197 seconds 
+  Import took 0.008718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002918 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor
+  artifactKey: Guid(62c56be364c00f14ba85c5d3f280447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor using Guid(62c56be364c00f14ba85c5d3f280447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03774dc3e23928519e17e14905093b5e') in 0.001809 seconds 
+  Import took 0.006104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009448 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs
+  artifactKey: Guid(d80edd6caba93514eb01722041fe50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs using Guid(d80edd6caba93514eb01722041fe50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78158f0511044ac01ebaeca93ebd68ef') in 0.001928 seconds 
+  Import took 0.006302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003312 seconds.
+  path: Assets/Materials/Zero Friction.physicsMaterial2D
+  artifactKey: Guid(2cddd7f149b4ec44ca76c3e4cf818461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zero Friction.physicsMaterial2D using Guid(2cddd7f149b4ec44ca76c3e4cf818461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e90ca93ad8ac0ee0e7185c77c2696e') in 0.003889 seconds 
+  Import took 0.007683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002158 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts
+  artifactKey: Guid(0da715375d333a8418105408e081f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts using Guid(0da715375d333a8418105408e081f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fbed04fe013f879760ebd4f093a744') in 0.001838 seconds 
+  Import took 0.006152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002619 seconds.
+  path: Assets/Animations/State Driven Camera Blends.asset
+  artifactKey: Guid(cb6a3a5cc044db14989652005002d899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/State Driven Camera Blends.asset using Guid(cb6a3a5cc044db14989652005002d899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3f520c35807ce3c73ed432c96f260b') in 0.003418 seconds 
+  Import took 0.007653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002767 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush
+  artifactKey: Guid(9b73c833515e70440a2222f774104211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush using Guid(9b73c833515e70440a2222f774104211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ef6e2ffdc61d8208635b2fee6ea4f6') in 0.002205 seconds 
+  Import took 0.006141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003510 seconds.
+  path: Assets/2d-extras-master/README.md
+  artifactKey: Guid(376d9e5c87953604a81155f3d01588b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/README.md using Guid(376d9e5c87953604a81155f3d01588b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb9f3d07b6ceb434681c564056ec5f0') in 0.003645 seconds 
+  Import took 0.007787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011780 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader
+  artifactKey: Guid(9fcc3b710e7f7ae44bcf65125a08d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader using Guid(9fcc3b710e7f7ae44bcf65125a08d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3defa6bd53ae7e0358032970d9dc6f') in 0.003732 seconds 
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003122 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders
+  artifactKey: Guid(f9a74a0ba597dbd4ebbdc09df032a31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders using Guid(f9a74a0ba597dbd4ebbdc09df032a31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114adb398f8995e059e2f78e5088e79e') in 0.002076 seconds 
+  Import took 0.006050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003727 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs
+  artifactKey: Guid(139f9377103555b49b8dcd62686df3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs using Guid(139f9377103555b49b8dcd62686df3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e93cb40a3ae9aa3eb1742528abfa32') in 0.001962 seconds 
+  Import took 0.005934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012831 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor
+  artifactKey: Guid(32b801acc992cb24298d963cc554c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor using Guid(32b801acc992cb24298d963cc554c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb46242cd49fdea17064636d44f31ff') in 0.001857 seconds 
+  Import took 0.005673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003021 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor
+  artifactKey: Guid(7402f20de7e8fc34c9cfcbc965122710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor using Guid(7402f20de7e8fc34c9cfcbc965122710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b2c16d23ce674bea8375d519a2cfbc') in 0.001771 seconds 
+  Import took 0.005893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002435 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts
+  artifactKey: Guid(6d62b55c63b75aa468f7dc342717b87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts using Guid(6d62b55c63b75aa468f7dc342717b87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a313388ae4f125d70c0fb52f809ad6a') in 0.002121 seconds 
+  Import took 0.005917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004352 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts
+  artifactKey: Guid(6a7de8b7c9f16a54abb1f4e4b4dda454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts using Guid(6a7de8b7c9f16a54abb1f4e4b4dda454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2429f8c13f6bf669c4b2d440d667d23') in 0.001723 seconds 
+  Import took 0.006059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003704 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs
+  artifactKey: Guid(9d1514134bc4fbd41bb739b1b9a49231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs using Guid(9d1514134bc4fbd41bb739b1b9a49231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b6f359ed57f3e2cd7b0e10022a0fbc') in 0.002175 seconds 
+  Import took 0.006578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012124 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs
+  artifactKey: Guid(5461c6f43c33cae4e8367042630017f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs using Guid(5461c6f43c33cae4e8367042630017f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc5acbc5fd536d6f6dcab677e45ef79') in 0.002081 seconds 
+  Import took 0.006162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002840 seconds.
+  path: Assets/Sprites & Tiles/Tiles/SPA_Ladder.asset
+  artifactKey: Guid(96fc714ca53a78d478483a4f62c94fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites & Tiles/Tiles/SPA_Ladder.asset using Guid(96fc714ca53a78d478483a4f62c94fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5717506e467b3f3459f6b2be7ba64d3') in 0.012200 seconds 
+  Import took 0.015968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005769 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts
+  artifactKey: Guid(3d5759c37f6ead941b87383dcb19bff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts using Guid(3d5759c37f6ead941b87383dcb19bff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c21a481ad834db6ac62ec6ed85df80') in 0.001826 seconds 
+  Import took 0.005853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003752 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs
+  artifactKey: Guid(b41bf0cc11b1c8f419f96e8eb0adea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs using Guid(b41bf0cc11b1c8f419f96e8eb0adea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dc0bb759cf9869bbdebc6b54f49007') in 0.001945 seconds 
+  Import took 0.005596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004576 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs
+  artifactKey: Guid(25192638efa881c469b1ac4d8cfd3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs using Guid(25192638efa881c469b1ac4d8cfd3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ea2f5e5b43210d9c1eb8b7d04823b7') in 0.002271 seconds 
+  Import took 0.005502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003923 seconds.
+  path: Assets/2d-extras-master/LICENSE.md
+  artifactKey: Guid(4d9df054f84d44f4cab608545eb9214c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/LICENSE.md using Guid(4d9df054f84d44f4cab608545eb9214c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce82723b847a5a271bb7872640fa518c') in 0.002555 seconds 
+  Import took 0.006091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009318 seconds.
+  path: Assets/Scenes/Sandbox.unity
+  artifactKey: Guid(c22edab8080072b4695bcd5f80be0c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox.unity using Guid(c22edab8080072b4695bcd5f80be0c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ad99e286673d948c9b8421eb0eca27') in 0.002464 seconds 
+  Import took 0.006710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003285 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush
+  artifactKey: Guid(a9fdf071ee2746a4b9db02f10619fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush using Guid(a9fdf071ee2746a4b9db02f10619fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a62e798cebb26f924593997f9b9820') in 0.001917 seconds 
+  Import took 0.005202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002448 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts
+  artifactKey: Guid(d8f0a7d912b6f424aa0e09f8597dd2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts using Guid(d8f0a7d912b6f424aa0e09f8597dd2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bc2e34db677a77a07e1b83737c1872') in 0.001697 seconds 
+  Import took 0.005896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005629 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts
+  artifactKey: Guid(090e78558c17f064eae502998e2f22fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts using Guid(090e78558c17f064eae502998e2f22fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2968469eddfc53e2cc6b48822acfcd') in 0.001685 seconds 
+  Import took 0.006243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile
+  artifactKey: Guid(8f0e4a19192261d448b776e63139448e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile using Guid(8f0e4a19192261d448b776e63139448e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3138ea4c6ccf4e2b4f4d473eb45faf11') in 0.002011 seconds 
+  Import took 0.005548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011661 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth
+  artifactKey: Guid(73ffdc5b54c50214e9899760b98f5754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth using Guid(73ffdc5b54c50214e9899760b98f5754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f6f38d9db18978e4faef1358074274') in 0.002395 seconds 
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004019 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts
+  artifactKey: Guid(becdef7ff3038f844a171e247f575688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts using Guid(becdef7ff3038f844a171e247f575688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53148712214c501cbaa969c56fd72277') in 0.001759 seconds 
+  Import took 0.006278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004551 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs
+  artifactKey: Guid(535f8e525ff367c4ba67961e201a05ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs using Guid(535f8e525ff367c4ba67961e201a05ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b93ebaac5a7c660faac61c124ef2b0d') in 0.002001 seconds 
+  Import took 0.006287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002395 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush
+  artifactKey: Guid(ddf6fb480373a4b4babf2bd106dd48d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush using Guid(ddf6fb480373a4b4babf2bd106dd48d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb06c39a4069ada8b22f40c0849fa025') in 0.002052 seconds 
+  Import took 0.006381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018080 seconds.
+  path: Assets/Scripts/EnemyMovement.cs
+  artifactKey: Guid(eb960e5ff3f165d49adad9e6f718d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyMovement.cs using Guid(eb960e5ff3f165d49adad9e6f718d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07256d41b822dd506be823be345af035') in 0.001932 seconds 
+  Import took 0.005707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002281 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts
+  artifactKey: Guid(d352e5b4c56a76e4d99fc48256bbc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts using Guid(d352e5b4c56a76e4d99fc48256bbc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d037b8cad00d03ab79069a1b84fe049') in 0.002106 seconds 
+  Import took 0.006086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003311 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs
+  artifactKey: Guid(d283e353fe1f4c34f8ac458281740fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs using Guid(d283e353fe1f4c34f8ac458281740fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953145551211851b137613a2e0e23a5d') in 0.002161 seconds 
+  Import took 0.005517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005552 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts
+  artifactKey: Guid(fa5c106bc9eac9844897d7fea5f8328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts using Guid(fa5c106bc9eac9844897d7fea5f8328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252145e3078242b77aa7329edc5bf212') in 0.002268 seconds 
+  Import took 0.006648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003622 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor
+  artifactKey: Guid(27c281d5970a0fd49bfebd8119dc790a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor using Guid(27c281d5970a0fd49bfebd8119dc790a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9941e252112b5b680e11806ae44c4da2') in 0.003118 seconds 
+  Import took 0.006834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027991 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/GridInformation
+  artifactKey: Guid(c93545baa8c686a46a0ec319b747d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/GridInformation using Guid(c93545baa8c686a46a0ec319b747d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca806b088094b7bc2a729090c9d543a5') in 0.002174 seconds 
+  Import took 0.006542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012838 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts
+  artifactKey: Guid(0c3034e66d810604680654a1e667fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts using Guid(0c3034e66d810604680654a1e667fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d3f7fa6763539b81990370ad5ffc46') in 0.002072 seconds 
+  Import took 0.006007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004046 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs
+  artifactKey: Guid(0abded712ad706044a53ef292972edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs using Guid(0abded712ad706044a53ef292972edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ff9b5cabcaba21d81f0ace136f03b3') in 0.002344 seconds 
+  Import took 0.006076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002531 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile
+  artifactKey: Guid(33e8a22612607064dbfaa9d21d1836e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile using Guid(33e8a22612607064dbfaa9d21d1836e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50aa07fdda9d40e2391a1db966a6f1cb') in 0.001961 seconds 
+  Import took 0.004990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006466 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts
+  artifactKey: Guid(14fc4c2dd67018d41b00db847f45f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts using Guid(14fc4c2dd67018d41b00db847f45f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64096b1251bd12899595905ce418040') in 0.002232 seconds 
+  Import took 0.006849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003181 seconds.
+  path: Assets/Animations/Player_climbing.anim
+  artifactKey: Guid(14160b9dc21bce440860e4585153dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_climbing.anim using Guid(14160b9dc21bce440860e4585153dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ddb5547469b6fa372dc0466eab7fd4') in 0.004376 seconds 
+  Import took 0.008321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013401 seconds.
+  path: Assets/Animations/Enemy_bounce.anim
+  artifactKey: Guid(8448cd5108eb936439b6f46a3c3bf9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy_bounce.anim using Guid(8448cd5108eb936439b6f46a3c3bf9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299eadf51d14a50ab9c02bd15176bdf2') in 0.003415 seconds 
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002594 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes
+  artifactKey: Guid(43e293f28d16b1e49a0e7065fabda4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes using Guid(43e293f28d16b1e49a0e7065fabda4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c41d2c80fa82ce98bf13b0ea34e643') in 0.002345 seconds 
+  Import took 0.006198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003268 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor
+  artifactKey: Guid(8b52b57c2118b2f4683f6e203db78e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor using Guid(8b52b57c2118b2f4683f6e203db78e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26253afe08d9a0e24133524903c09c8e') in 0.002066 seconds 
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004079 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs
+  artifactKey: Guid(ed363ce3b4856fa408111529bc784318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs using Guid(ed363ce3b4856fa408111529bc784318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e909e15f68540e969cbfcb55b7fdfe') in 0.001950 seconds 
+  Import took 0.006134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005670 seconds.
+  path: Assets/Animations/Enemy.controller
+  artifactKey: Guid(8dab07c0de1a35042835245d56a7630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy.controller using Guid(8dab07c0de1a35042835245d56a7630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e286b82567cab035d9d68f6e91d369') in 0.005135 seconds 
+  Import took 0.008844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004001 seconds.
+  path: Assets/2d-extras-master/Assets
+  artifactKey: Guid(521468866c2236f4db0f2af073519d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets using Guid(521468866c2236f4db0f2af073519d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd86a16157cdbe2ddc4542590376aaf') in 0.001776 seconds 
+  Import took 0.005978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006630 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles
+  artifactKey: Guid(a4b96e08a92a0de42b0c2fd3c56516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles using Guid(a4b96e08a92a0de42b0c2fd3c56516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc24bdcaaf56308991f002107777b19') in 0.001832 seconds 
+  Import took 0.005252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002452 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor
+  artifactKey: Guid(642e946f97259c640b3a047a57944ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor using Guid(642e946f97259c640b3a047a57944ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e788052553ae4ce6e7fa4a1e8df99e') in 0.001793 seconds 
+  Import took 0.005598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002712 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor
+  artifactKey: Guid(a4ce1d57936070949bdd366b4d13335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor using Guid(a4ce1d57936070949bdd366b4d13335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9a3c65615b7ff5e3cacec223190d2c') in 0.001693 seconds 
+  Import took 0.005304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003664 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs
+  artifactKey: Guid(e7bb9acb2cffc5f45abddc238a0ad9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs using Guid(e7bb9acb2cffc5f45abddc238a0ad9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8308237c6b4088e16371ceab87629f3') in 0.001955 seconds 
+  Import took 0.006092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010406 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs
+  artifactKey: Guid(f6e4e4fc705376343a3e65b25d94f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs using Guid(f6e4e4fc705376343a3e65b25d94f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcac244b4e43a6a0f0af7570de51ed14') in 0.002007 seconds 
+  Import took 0.006294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003316 seconds.
+  path: Assets/Sprites & Tiles/Sprites/Spikes.asset
+  artifactKey: Guid(628a233a7c5c16744afe1fe54e80a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites & Tiles/Sprites/Spikes.asset using Guid(628a233a7c5c16744afe1fe54e80a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e09e08786abf2bc2cc4701c99e9bb26') in 0.008864 seconds 
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002902 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile
+  artifactKey: Guid(7f83a174d475ee842aaea9ee552fa506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile using Guid(7f83a174d475ee842aaea9ee552fa506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32f21b3d45cbb17cb9e0cc509e71c24') in 0.003742 seconds 
+  Import took 0.007671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002974 seconds.
+  path: Assets/Animations/Player_idle.anim
+  artifactKey: Guid(e3e7c3c09d41a1b4da2ad84f2eae6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_idle.anim using Guid(e3e7c3c09d41a1b4da2ad84f2eae6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4d8ef3f2ae3d693d99fa8058023a33') in 0.004978 seconds 
+  Import took 0.008864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003312 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs
+  artifactKey: Guid(2d5751a2c961df945a34295ccf5e576d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs using Guid(2d5751a2c961df945a34295ccf5e576d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c15b7462522afa80852561ab225516') in 0.002267 seconds 
+  Import took 0.006285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031343 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile
+  artifactKey: Guid(47f5287a949e1094191c733949de285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile using Guid(47f5287a949e1094191c733949de285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f137dc35e78e167c6c3f63596cd502a') in 0.005108 seconds 
+  Import took 0.010706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002264 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush
+  artifactKey: Guid(8dee42ba30f712246852f41830cedbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush using Guid(8dee42ba30f712246852f41830cedbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb8a7efbae82c921ef5f4d3729ee73e') in 0.003299 seconds 
+  Import took 0.007624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008535 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush
+  artifactKey: Guid(91dd673b6b5d18845b756aedc65463ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush using Guid(91dd673b6b5d18845b756aedc65463ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bd789099c3d8d6ee608d8eb3634f58') in 0.001992 seconds 
+  Import took 0.005496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011282 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush
+  artifactKey: Guid(3664941e71bb62e4b94231620856f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush using Guid(3664941e71bb62e4b94231620856f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57c0fb2b43cf846c41e078526b0736c') in 0.002010 seconds 
+  Import took 0.005586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007716 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(f2e07ebd6fb2d84409fafd78c979f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(f2e07ebd6fb2d84409fafd78c979f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b430956bdf50e766ca62e2c26bf706c2') in 0.013933 seconds 
+  Import took 0.018652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008898 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap
+  artifactKey: Guid(cf9ccd4324df2364db3ac79b01297df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap using Guid(cf9ccd4324df2364db3ac79b01297df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9202983ebd807bc00a310c487b09c486') in 0.002252 seconds 
+  Import took 0.008203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005514 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs
+  artifactKey: Guid(6210598a979f8724a8dac4531c428889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs using Guid(6210598a979f8724a8dac4531c428889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f815ef662801c5992d6571b66a049253') in 0.002056 seconds 
+  Import took 0.005653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023906 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts
+  artifactKey: Guid(2ea50964d54e5fe4daef60544c57e629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts using Guid(2ea50964d54e5fe4daef60544c57e629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a64dedbdfae6132cb876ccc22af0c32') in 0.001971 seconds 
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020807 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(86eef151ab852d64a96808af1806dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(86eef151ab852d64a96808af1806dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf051b58087892951ddb7bdae18ec5e') in 0.001805 seconds 
+  Import took 0.005169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008527 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts
+  artifactKey: Guid(64fa95bf1baeb5f4497bd5048a284208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts using Guid(64fa95bf1baeb5f4497bd5048a284208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903f184927cbe0dc669fbc8ce652bb9f') in 0.001803 seconds 
+  Import took 0.005189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009271 seconds.
+  path: Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile
+  artifactKey: Guid(af0bc89550613a14fa0feadd363358e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile using Guid(af0bc89550613a14fa0feadd363358e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb63768b4c9c47d57b8410bd9bf572e') in 0.002088 seconds 
+  Import took 0.005664 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
